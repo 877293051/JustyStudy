@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="justy.com.justystudys.StudyApplication"
+        android:name="justy.com.justystudy.StudyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="justy.com.justystudys.MainActivity"
+            android:name="justy.com.justystudy.MainActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,12 +25,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="justy.com.justystudys.SettingActivity"
-            android:parentActivityName="justy.com.justystudys.MainActivity" />
-        <activity android:name="justy.com.justystudys.StudyActivity" />
+            android:name="justy.com.justystudy.SettingActivity"
+            android:parentActivityName="justy.com.justystudy.MainActivity" />
+        <activity android:name="justy.com.justystudy.StudyActivity" />
         <activity android:name=".architectureComponents.MvpActivity" />
-        <activity android:name="justy.com.justystudys.observability.ui.UserActivity" />
-        <activity android:name="justy.com.justystudys.kotlin.KotlinActivity"></activity>
+        <activity android:name="justy.com.justystudy.observability.ui.UserActivity" />
+        <activity android:name="justy.com.justystudy.kotlin.KotlinActivity"></activity>
     </application>
 
 </manifest>
