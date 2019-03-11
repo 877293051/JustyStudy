@@ -1,4 +1,4 @@
-package justy.com.justystudy;
+package justy.com.justy;
 
 import org.junit.Test;
 

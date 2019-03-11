@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="justy.com.justystudy">
+    package="justy.com.android">
 
     <!--常用权限-->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="justy.com.justystudy.StudyApplication"
+        android:name=".StudyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="justy.com.justystudy.MainActivity"
+            android:name=".MainActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,12 +25,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="justy.com.justystudy.SettingActivity"
-            android:parentActivityName="justy.com.justystudy.MainActivity" />
-        <activity android:name="justy.com.justystudy.StudyActivity" />
-        <activity android:name=".architectureComponents.MvpActivity" />
-        <activity android:name="justy.com.justystudy.observability.ui.UserActivity" />
-        <activity android:name="justy.com.justystudy.kotlin.KotlinActivity"></activity>
+            android:name=".SettingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".StudyActivity" />
+        <activity android:name="justy.com.android.architectureComponents.MvpActivity" />
+        <activity android:name=".observability.ui.UserActivity" />
+        <activity android:name=".kotlin.KotlinActivity"></activity>
     </application>
 
 </manifest>

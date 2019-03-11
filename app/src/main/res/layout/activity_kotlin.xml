@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="justy.com.justystudy.kotlin.KotlinActivity">
+    tools:context="justy.com.justy.justy.com.justy.kotlin.KotlinActivity">
 
 </android.support.constraint.ConstraintLayout>

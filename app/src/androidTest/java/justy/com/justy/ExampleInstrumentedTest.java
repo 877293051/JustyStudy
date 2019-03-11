@@ -1,4 +1,4 @@
-package justy.com.justystudy;
+package justy.com.justy;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
