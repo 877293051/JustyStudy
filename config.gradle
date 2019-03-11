@@ -1,0 +1,10 @@
+ext{
+    dependencies=[
+            //rx
+            "rxjava"                            : "io.reactivex.rxjava2:rxjava:2.1.5",
+            "rxandroid"                         : "io.reactivex.rxjava2:rxandroid:2.0.1",
+            "rxandroidnetworking"               : "com.amitshekhar.android:rx2-android-networking:1.0.2",
+    ]
+}
+def versions = [:]
+versions.lifecycle_version = "1.1.1"
